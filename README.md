@@ -6,7 +6,9 @@
 3. Restart ComfyUI.
 4. Open the folder `ComfyUI\custom_nodes\ComfyUI-Dugital-GreenScreen` and double-click **SET-API-KEY.bat**,
    paste your MiniMax key, press Enter. Restart ComfyUI once more.
-5. Open the workflow: **Workflow > Browse Templates > Dugital Green Screen**.
+5. Open a workflow from **Workflow > Browse Templates**:
+   - **Dugital Green Screen**: generate a subject with MiniMax on green, then remove the green.
+   - **Dugital Remove Green Screen**: drop in your own green-screen image and remove the green (no MiniMax key needed).
 
 If Manager says Git URL installs are not allowed: open `ComfyUI\user\default\ComfyUI-Manager\config.ini`
 (older versions: `ComfyUI\custom_nodes\ComfyUI-Manager\config.ini`),
