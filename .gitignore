@@ -1,0 +1,5 @@
+minimax_api_key.txt
+*.key
+.env
+__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-dugital-greenscreen"
+description = "MiniMax image-01 generation on a chroma-key green screen, plus chroma key and composite nodes."
+version = "1.0.0"
+license = { text = "Proprietary - Dugital" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/mmedvas/ComfyUI-Dugital-GreenScreen"
+
+[tool.comfy]
+PublisherId = "mmedvas"
+DisplayName = "Dugital Green Screen"
+Icon = ""
